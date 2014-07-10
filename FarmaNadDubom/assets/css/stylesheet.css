@@ -1,0 +1,213 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    /* This is used to ensure that the scroll bars in browsers like Firefox, always show on the page. This stops the page shifting left and right when changing between long and short pages. */
+    position: relative;
+    min-height: 100%;
+    height: 100%;
+    /* maybe it will be necessary to delete */
+    overflow-x: hidden; 
+    /* maybe it will be necessary to delete */
+    overflow-y:hidden;
+}
+
+body {
+    position: relative;
+    margin: 0px;
+    background: #ccc;
+}
+
+/*** logo section ***/
+#welcome_logo_section {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+
+#logo_section_background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: black;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+#logo_section_wrapper{
+    display: inline-block;
+    position: absolute; /* might be also fixed */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 325px;
+    width: 350px;
+    margin: auto;
+    padding: 1em;
+    cursor: pointer;
+
+    background-color: lightcyan;
+    border-radius: 5px;
+
+    -moz-box-shadow: 0 0 115px 15px black;
+    -webkit-box-shadow: 0 0 115px 15px black;
+    box-shadow: 0 0 115px 15px black;
+    z-index: 1001;
+}
+
+#logo_section_wrapper img{
+    position: absolute;
+}
+
+/*** navigation menu ***/
+#menu{
+    position: fixed;
+    max-width: 18%;
+    top: 50%;
+    margin-top: -6em;
+    padding: 0.5em 2.5em 0.5em 0.5em;
+    z-index: 1;
+
+    font-weight: bold;
+    font-size: large;
+
+    background: hsla(80, 90%, 40%, 0.7);
+    border: solid hsla(80, 90%, 40%, 0.5);
+    border-left: none;
+    box-shadow: 0 1px 3px black;
+    border-radius: 0.5em 3em 3em 0.5em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li ul{
+    display: none;
+}
+
+ul>li>a {
+    display: block;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+}
+
+ul>li>ul>li>a {
+    display: block;
+    font-family: 'Lobster', cursive;
+    font-style: italic;
+    text-decoration: none;
+}
+
+/*  container */
+#container{
+    position: relative;
+    width: 60%;
+    padding: 35px;
+    margin: 0px auto;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+    /*overflow-x: hidden;*/
+}
+#container:before, #container:after
+{
+    position: absolute;
+    width: 40%;
+    height: 10px;
+    content: ' ';
+    left: 12px;
+    bottom: 15px;
+    background: transparent;
+    -webkit-transform: skew(-5deg) rotate(-5deg);
+    -moz-transform: skew(-5deg) rotate(-5deg);
+    -ms-transform: skew(-5deg) rotate(-5deg);
+    -o-transform: skew(-5deg) rotate(-5deg);
+    transform: skew(-5deg) rotate(-5deg);
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    z-index: -1;
+} 
+
+#container:after
+{
+    left: auto;
+    right: 12px;
+    -webkit-transform: skew(5deg) rotate(5deg);
+    -moz-transform: skew(5deg) rotate(5deg);
+    -ms-transform: skew(5deg) rotate(5deg);
+    -o-transform: skew(5deg) rotate(5deg);
+    transform: skew(5deg) rotate(5deg);
+    z-index: -1;
+}
+
+#welcome_bacground_image img{
+    /*max-height: 330px;*/
+    /*    max-width: 247px;*/
+    max-width: 100%;
+}
+
+#map_section{
+    position: fixed;
+    top: 50%;
+    margin-top: -4em;
+    right: 0px;
+    max-width: 18%;
+
+}
+
+
+/*** address styling ***/
+ul li span:first-child{
+    font-weight: bold;
+}
+
+ul li span:nth-child(2){
+    margin-left: 1%;
+}
+
+/*** google maps canvas ***/
+#map-canvas {
+    min-height: 400px;
+    margin: 0px;
+    padding: 0px
+}
+
+/*** formular: napiste nam ***/
+form{
+    float: left;
+    max-width: 48%;
+}
+form label, form input, form textarea{
+    display: block;
+    max-width: 100%;
+    width: 100%;
+}
+
+form label{
+    margin-top: 1%;
+}
+form input, form textarea{
+    margin-bottom: 2%;
+}
+
+#mailbox_section{
+    float: right;
+    width: 48%;
+}
+#mailbox_section img{
+    max-width: 100%;
+}
+
+div.errors p{
+    color: red;
+}

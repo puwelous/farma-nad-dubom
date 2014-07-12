@@ -9,10 +9,14 @@
         <?php
         // css
         echo link_tag('assets/css/stylesheet.css');
+        echo link_tag('assets/css/lightbox.css');
         ?>
 
         <!-- javascript -->
         <script src="<?php echo base_url(); ?>assets/javascript/jquery-1.6.js" text='text/javascript'></script>
+        <script src="<?php echo base_url(); ?>assets/javascript/jquery-1.11.0.min.js" text='text/javascript'></script>
+        <script src="<?php echo base_url(); ?>assets/javascript/lightbox.min.js" text='text/javascript'></script>
+
         <script>
             $(document).ready(function(){
                 $("a.roll_down").click( function(){
@@ -20,7 +24,7 @@
                 });
                 
                 // slide menu items
-                $("a.roll_down").siblings( "ul" ).slideToggle("slow");             
+                $("a.roll_down").siblings( "ul" ).show();          
             });
         </script>
     </head>
@@ -79,7 +83,55 @@
 
         <!-- content -->
         <div id="container">
-            <h1>Daniel</h1>
+            <h1>Highland</h1>
+
+            <div class="photogallery">
+                <a href="<?php echo base_url('assets/images/gallery/daniel/daniel1.jpg'); ?>" data-lightbox="daniel">
+                    <?php echo img('assets/images/gallery/daniel/daniel1.jpg'); ?>
+                </a>
+                <a href="<?php echo base_url('assets/images/gallery/daniel/daniel2.jpg'); ?>" data-lightbox="daniel">
+                    <?php echo img('assets/images/gallery/daniel/daniel2.jpg'); ?>
+                </a>
+                <a href="<?php echo base_url('assets/images/gallery/daniel/daniel3.jpg'); ?>" data-lightbox="daniel">
+                    <?php echo img('assets/images/gallery/daniel/daniel3.jpg'); ?>
+                </a>
+                <a href="<?php echo base_url('assets/images/gallery/daniel/daniel1.jpg'); ?>" data-lightbox="daniel">
+                    <?php echo img('assets/images/gallery/daniel/daniel1.jpg'); ?>
+                </a>
+                <a href="<?php echo base_url('assets/images/gallery/daniel/daniel2.jpg'); ?>" data-lightbox="daniel">
+                    <?php echo img('assets/images/gallery/daniel/daniel2.jpg'); ?>
+                </a>
+                <a href="<?php echo base_url('assets/images/gallery/daniel/daniel3.jpg'); ?>" data-lightbox="daniel">
+                    <?php echo img('assets/images/gallery/daniel/daniel3.jpg'); ?>
+                </a>
+                <a href="<?php echo base_url('assets/images/gallery/daniel/daniel1.jpg'); ?>" data-lightbox="daniel">
+                    <?php echo img('assets/images/gallery/daniel/daniel1.jpg'); ?>
+                </a>
+                <a href="<?php echo base_url('assets/images/gallery/daniel/daniel2.jpg'); ?>" data-lightbox="daniel">
+                    <?php echo img('assets/images/gallery/daniel/daniel2.jpg'); ?>
+                </a>
+                <a href="<?php echo base_url('assets/images/gallery/daniel/daniel3.jpg'); ?>" data-lightbox="daniel">
+                    <?php echo img('assets/images/gallery/daniel/daniel3.jpg'); ?>
+                </a>
+                <a href="<?php echo base_url('assets/images/gallery/daniel/daniel1.jpg'); ?>" data-lightbox="daniel">
+                    <?php echo img('assets/images/gallery/daniel/daniel1.jpg'); ?>
+                </a>
+                <a href="<?php echo base_url('assets/images/gallery/daniel/daniel2.jpg'); ?>" data-lightbox="daniel">
+                    <?php echo img('assets/images/gallery/daniel/daniel2.jpg'); ?>
+                </a>
+                <a href="<?php echo base_url('assets/images/gallery/daniel/daniel3.jpg'); ?>" data-lightbox="daniel">
+                    <?php echo img('assets/images/gallery/daniel/daniel3.jpg'); ?>
+                </a>
+                <a href="<?php echo base_url('assets/images/gallery/daniel/daniel1.jpg'); ?>" data-lightbox="daniel">
+                    <?php echo img('assets/images/gallery/daniel/daniel1.jpg'); ?>
+                </a>
+                <a href="<?php echo base_url('assets/images/gallery/daniel/daniel2.jpg'); ?>" data-lightbox="daniel">
+                    <?php echo img('assets/images/gallery/daniel/daniel2.jpg'); ?>
+                </a>
+                <a href="<?php echo base_url('assets/images/gallery/daniel/daniel3.jpg'); ?>" data-lightbox="daniel">
+                    <?php echo img('assets/images/gallery/daniel/daniel3.jpg'); ?>
+                </a>                
+            </div>
         </div>
     </body>
 </html>

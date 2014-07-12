@@ -11,7 +11,7 @@ html, body {
     /* maybe it will be necessary to delete */
     overflow-x: hidden; 
     /* maybe it will be necessary to delete */
-    overflow-y:hidden;
+    /*overflow-y:hidden;*/
 }
 
 body {
@@ -165,6 +165,34 @@ ul>li>ul>li>a {
 
 }
 
+/*** gallery ***/
+div.photogallery {
+    max-width: 100%;
+}
+
+div.photogallery a {
+    line-height: 0;
+    text-decoration: none;
+}
+
+
+div.photogallery a img {
+    max-height: 8em;
+    border-radius: 5px;
+    border: 2px ridge black;
+    box-sizing: border-box;
+}
+
+div.photogallery a img:hover {
+    border-color:#ccc;
+}
+
+/*div.photogallery a img:focus{
+    outline:thin dotted
+}
+div.photogallery a img:active, div.photogallery a img:hover{
+    outline:0
+}*/
 
 /*** address styling ***/
 ul li span:first-child{

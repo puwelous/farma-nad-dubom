@@ -15,6 +15,8 @@
         <script src="<?php echo base_url(); ?>assets/javascript/jquery-1.6.js" text='text/javascript'></script>
         <script>
             $(document).ready(function(){
+                $('html, body').css('overflow-y', 'hidden');
+                
                 $("#welcome_logo_section").click( function(){
                     $( "#logo_top" ).animate({
                         opacity: 0.1,

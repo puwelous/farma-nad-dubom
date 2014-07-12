@@ -20,7 +20,7 @@
                 });
                 
                 // slide menu items
-                $("a.roll_down").siblings( "ul" ).slideToggle("slow");             
+                $("a.roll_down").siblings( "ul" ).show();           
             });
         </script>
     </head>

@@ -175,7 +175,6 @@ div.photogallery a {
     text-decoration: none;
 }
 
-
 div.photogallery a img {
     max-height: 8em;
     border-radius: 5px;
@@ -186,13 +185,6 @@ div.photogallery a img {
 div.photogallery a img:hover {
     border-color:#ccc;
 }
-
-/*div.photogallery a img:focus{
-    outline:thin dotted
-}
-div.photogallery a img:active, div.photogallery a img:hover{
-    outline:0
-}*/
 
 /*** address styling ***/
 ul li span:first-child{

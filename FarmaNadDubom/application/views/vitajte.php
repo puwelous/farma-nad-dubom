@@ -153,16 +153,13 @@
 
         <!-- content -->
         <div id="container">
-            <h1>Farma Nad dubom</h1>
+            <h1><span class="big">F</span><span class="small">arma Nad dubom</span></h1>
 
 
             <div id="welcome_bacground_image">
                 <img src="assets/css/images/welcome_background.jpg"/>
             </div>
 
-            <div id="map_section">
-                <img src="assets/css/images/illustration_map.gif"/>
-            </div>
 
 
             <!--            <h1>Welcome to CodeIgniter!</h1>

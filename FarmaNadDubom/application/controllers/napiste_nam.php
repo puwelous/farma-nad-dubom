@@ -9,7 +9,10 @@ class Napiste_nam extends CI_Controller {
 
     public function index() {
         $this->load->helper('form');
+
+        $this->load->view('templates/header');
         $this->load->view('napiste_nam');
+        $this->load->view('templates/footer');
     }
 
     public function email() {
@@ -30,28 +33,30 @@ class Napiste_nam extends CI_Controller {
             // set email settings
             $this->email->from(
                     $this->input->post('email'), $this->input->post('name'));
-            
+
             // set receiver - farma nad dubom's email
             $this->email->to($this->config->item('farma_nad_dubom_email'));
 
             // set constant subject for automatic email
             $this->email->subject(self::NAPISTE_NAM_SUBJECT);
-            
+
             // set user's message
-            $this->email->message( $this->input->post('message') );
+            $this->email->message($this->input->post('message'));
 
             //send email
-            if( !$this->email->send() ){
-                
-                log_message('debug', $this->email->print_debugger() );
+            if (!$this->email->send()) {
+
+                log_message('debug', $this->email->print_debugger());
                 $this->load->view('napiste_nam_neuspesne_odoslanie');
                 return;
             };
 
-            log_message('debug', $this->email->print_debugger() );
-            
+            log_message('debug', $this->email->print_debugger());
+
             // load view
+            $this->load->view('templates/header');
             $this->load->view('napiste_nam_uspesne_odoslanie');
+            $this->load->view('templates/footer');
         }
     }
 

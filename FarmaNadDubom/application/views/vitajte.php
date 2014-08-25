@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>Farma Nad dubom - vitajte!</title>
+        
+        <!-- meta tags -->
         <meta charset="utf-8">
-        <title>Farma Nad dubom</title>
+        <?php echo meta('description','Uvitacia stranka farmy Nad dubom orientovanej na chov muflonov, danielov a highlandov'); ?>
+        <?php echo meta(array('name' => 'robots', 'content' => 'INDEX, FOLLOW')); ?>
 
-        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Oswald&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
         <?php
         // css
@@ -50,8 +55,11 @@
                     $(this).siblings( "ul" ).slideToggle("slow");
                 });
                 
-                //TODO:
                 $('#welcome_logo_section').show();
+                
+                $('#menu_id').click( function(){
+                    $(this).parent().siblings( "ul" ).slideToggle("slow");
+                });
             });
         </script>
     </head>
@@ -61,50 +69,55 @@
         <div id="menu">
             <ul>
                 <li>
-                    <?php echo anchor('o-nas', 'O NÁS', array('class' => 'text_light smaller pp_dark_gray red_on_hover upper_cased')); ?>
+                    <a id="menu_id" href="#">MENU</a>
                 </li>
-                <li>
-                    <a class="roll_down" href="#">
-                        CHOV                        
-                    </a>
-                    <ul >
-                        <li>
-                            <?php echo anchor('chov/daniel', 'Daniel', array('class' => 'text_light smaller pp_dark_gray red_on_hover upper_cased')); ?>
-                        </li>
-                        <li>
-                            <?php echo anchor('chov/muflon', 'Muflon', array('class' => 'text_light smaller pp_dark_gray red_on_hover upper_cased')); ?>
-                        </li>
-                        <li>
-                            <?php echo anchor('chov/highland', 'Highland', array('class' => 'text_light smaller pp_dark_gray red_on_hover upper_cased')); ?>
-                        </li>                         
-                    </ul>
-                </li>
-                <li>
-                    <?php echo anchor('ponuka', 'PONUKA', array('class' => 'text_light smaller pp_dark_gray red_on_hover upper_cased')); ?>
-                </li>
-                <li>
-                    <a class="roll_down" href="#">FOTO</a>                       
-                    <ul >
-                        <li>
-                            <?php echo anchor('foto/daniel', 'Daniel', array('class' => 'text_light smaller pp_dark_gray red_on_hover upper_cased')); ?>
-                        </li>
-                        <li>
-                            <?php echo anchor('foto/muflon', 'Muflon', array('class' => 'text_light smaller pp_dark_gray red_on_hover upper_cased')); ?>
-                        </li>
-                        <li>
-                            <?php echo anchor('foto/highland', 'Highland', array('class' => 'text_light smaller pp_dark_gray red_on_hover upper_cased')); ?>
-                        </li>
-                        <li>
-                            <?php echo anchor('foto/okolie', 'Okolie', array('class' => 'text_light smaller pp_dark_gray red_on_hover upper_cased')); ?>
-                        </li>                         
-                    </ul>
-                </li>
-                <li>
-                    <?php echo anchor('napiste-nam', 'NAPÍŠTE NÁM', array('class' => 'text_light smaller pp_dark_gray red_on_hover upper_cased')); ?>
-                </li>                
-                <li>
-                    <?php echo anchor('kontakt', 'KONTAKT', array('class' => 'text_light smaller pp_dark_gray red_on_hover upper_cased')); ?>
-                </li>
+                <ul style="display: none">
+                    <li>
+                        <?php echo anchor('o-nas', 'O NÁS', array('class' => 'text_light smaller pp_dark_gray red_on_hover upper_cased')); ?>
+                    </li>
+                    <li>
+                        <a class="roll_down" href="#">
+                            CHOV                        
+                        </a>
+                        <ul >
+                            <li>
+                                <?php echo anchor('chov/daniel', 'Daniel', array('class' => 'text_light smaller pp_dark_gray red_on_hover upper_cased')); ?>
+                            </li>
+                            <li>
+                                <?php echo anchor('chov/muflon', 'Muflon', array('class' => 'text_light smaller pp_dark_gray red_on_hover upper_cased')); ?>
+                            </li>
+                            <li>
+                                <?php echo anchor('chov/highland', 'Highland', array('class' => 'text_light smaller pp_dark_gray red_on_hover upper_cased')); ?>
+                            </li>                         
+                        </ul>
+                    </li>
+                    <li>
+                        <?php echo anchor('ponuka', 'PONUKA', array('class' => 'text_light smaller pp_dark_gray red_on_hover upper_cased')); ?>
+                    </li>
+                    <li>
+                        <a class="roll_down" href="#">FOTO</a>                       
+                        <ul >
+                            <li>
+                                <?php echo anchor('foto/daniel', 'Daniel', array('class' => 'text_light smaller pp_dark_gray red_on_hover upper_cased')); ?>
+                            </li>
+                            <li>
+                                <?php echo anchor('foto/muflon', 'Muflon', array('class' => 'text_light smaller pp_dark_gray red_on_hover upper_cased')); ?>
+                            </li>
+                            <li>
+                                <?php echo anchor('foto/highland', 'Highland', array('class' => 'text_light smaller pp_dark_gray red_on_hover upper_cased')); ?>
+                            </li>
+                            <li>
+                                <?php echo anchor('foto/okolie', 'Okolie', array('class' => 'text_light smaller pp_dark_gray red_on_hover upper_cased')); ?>
+                            </li>                         
+                        </ul>
+                    </li>
+                    <li>
+                        <?php echo anchor('napiste-nam', 'NAPÍŠTE NÁM', array('class' => 'text_light smaller pp_dark_gray red_on_hover upper_cased')); ?>
+                    </li>                
+                    <li>
+                        <?php echo anchor('kontakt', 'KONTAKT', array('class' => 'text_light smaller pp_dark_gray red_on_hover upper_cased')); ?>
+                    </li>
+                </ul>
             </ul>
         </div>
 
@@ -131,14 +144,14 @@
                     'src' => 'assets/css/images/logo/logo_strom_dole.png',
                     'alt' => 'Kmen',
                     'title' => 'Logo'
-                ); 
+                );
                 $image_properties_4 = array(
                     'id' => 'logo_bottom',
                     'src' => 'assets/css/images/logo/logo_nadpis_dole.png',
                     'alt' => 'Dolny nadpis',
                     'title' => 'Logo'
                 );
-                
+
                 echo img($image_properties_1);
                 echo img($image_properties_2);
                 echo img($image_properties_3);
@@ -157,7 +170,7 @@
 
 
             <div id="welcome_bacground_image">
-                <img src="assets/css/images/welcome_background.jpg"/>
+                <?php echo img('assets/css/images/welcome_background.jpg'); ?>
             </div>
 
 

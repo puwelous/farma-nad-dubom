@@ -6,25 +6,41 @@ if (!defined('BASEPATH'))
 class Foto extends CI_Controller {
 
     public function daniel() {
-        $this->load->view('templates/header');
+        
+        $data['title'] = 'Foto - daniel';
+        $data['description'] = 'Nase fotky pre zver: daniel';
+        
+        $this->load->view('templates/header', $data);
         $this->load->view('foto/foto_daniel');
         $this->load->view('templates/footer');
     }
 
     public function muflon() {
-        $this->load->view('templates/header');
+        
+        $data['title'] = 'Foto - muflon';
+        $data['description'] = 'Nase fotky pre zver: muflon';
+        
+        $this->load->view('templates/header', $data);
         $this->load->view('foto/foto_muflon');
         $this->load->view('templates/footer');
     }
 
     public function highland() {
-        $this->load->view('templates/header');
+        
+        $data['title'] = 'Foto - highland';
+        $data['description'] = 'Nase fotky pre: highland';
+        
+        $this->load->view('templates/header', $data);
         $this->load->view('foto/foto_highland');
         $this->load->view('templates/footer');
     }
 
     public function okolie() {
-        $this->load->view('templates/header');
+        
+        $data['title'] = 'Foto - Borov a okolie';
+        $data['description'] = 'Fotky dediny Borov a jej okolia';
+        
+        $this->load->view('templates/header', $data);
         $this->load->view('foto/foto_okolie');
         $this->load->view('templates/footer');
     }

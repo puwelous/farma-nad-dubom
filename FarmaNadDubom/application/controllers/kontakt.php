@@ -6,7 +6,11 @@ if (!defined('BASEPATH'))
 class Kontakt extends CI_Controller {
 
     public function index() {
-        $this->load->view('templates/header');
+        
+        $data['title'] = 'Kontakt - Farma Nad dubom';
+        $data['description'] = 'Kontaktne informacie farmy Nad dubom';
+        
+        $this->load->view('templates/header', $data);
         $this->load->view('kontakt');
         $this->load->view('templates/footer');
     }

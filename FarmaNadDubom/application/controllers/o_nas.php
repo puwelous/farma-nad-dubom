@@ -6,7 +6,11 @@ if (!defined('BASEPATH'))
 class O_nas extends CI_Controller {
 
     public function index() {
-        $this->load->view('templates/header');
+        
+        $data['title'] = 'O nas';
+        $data['description'] = 'Historia a sucasnost farmy Nad dubom';
+        
+        $this->load->view('templates/header', $data);
         $this->load->view('o_nas');
         $this->load->view('templates/footer');
     }

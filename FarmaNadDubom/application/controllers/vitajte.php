@@ -7,6 +7,8 @@ class Vitajte extends CI_Controller {
 
     public function index() {
 
+        //$data['title'] = 'Vitajte'; -> directly in vitajte.php view template
+        
         //$this->load->view('header');
         $this->load->view('vitajte');
         //$this->load->view('footer');

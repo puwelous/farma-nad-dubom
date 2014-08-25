@@ -6,7 +6,11 @@ if (!defined('BASEPATH'))
 class Ponuka extends CI_Controller {
 
     public function index() {
-        $this->load->view('templates/header');
+        
+        $data['title'] = 'Nasa ponuka';
+        $data['description'] = 'Ponuka nami chovanych danielov, muflonov a highlandov';
+        
+        $this->load->view('templates/header', $data);
         $this->load->view('ponuka');
         $this->load->view('templates/footer');
     }

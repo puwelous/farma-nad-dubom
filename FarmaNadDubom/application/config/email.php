@@ -4,9 +4,9 @@
  * Settings for email sending purposes.
  */
 $config['protocol']         = 'smtp';
-$config['smtp_host']        = 'smtp.farmanaddubom.sk';
-$config['smtp_user']        = 'napistenam@farmanaddubom.sk';
-$config['smtp_pass']        = 'jarohnatic123'; //TODO
+$config['smtp_host']        = 'WHOOOPS';
+$config['smtp_user']        = 'WHOOOPS';
+$config['smtp_pass']        = 'WHOOOPS'; //TODO
 $config['smtp_port']        = '25';
 $config['charset']          = 'utf-8';
 $config['crlf']             = '\r\n';

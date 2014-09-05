@@ -3,9 +3,11 @@
 <div id="container">
     <h1><span class="big">N</span><span class="small">aša ponuka</span></h1>
     <div class="title_line"></div>
-
+    <p>
+        Momentálne nie je nič v ponuke na predaj.
+    </p>
     <!-- Our offers - table -->
-    <table>
+<!--    <table>
         <thead>
             <tr>
                 <th>Option</th>
@@ -60,5 +62,5 @@
                 <td>The callback fired after the hide/conceal</td>
             </tr>
         </tbody>
-    </table>            
+    </table>            -->
 </div>

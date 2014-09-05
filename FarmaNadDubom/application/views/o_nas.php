@@ -33,5 +33,8 @@
             Naším cieľom je produkcia kvalitného chovu býčkov a jalovičiek nádherného a veľmi vďačného plemena, 
             ktoré sa stáva ozdobou krásnych slovenských podhorských lúk.             
         </p>
+        <p>
+            Ing. Jaroslav Hnatič, majiteľs           
+        </p>        
     </div>
 </div>

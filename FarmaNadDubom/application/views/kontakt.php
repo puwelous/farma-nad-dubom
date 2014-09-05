@@ -34,9 +34,13 @@
                     <div style="clear:both;"></div>
                 </li>
                 <li>
-                    <span>E-mail:</span><span><?php echo safe_mailto('jaro.hnatic@post.sk', 'jaro.hnatic@post.sk'); ?></span>
+                    <span>E-mail 1:</span><span><?php echo safe_mailto('jaro.hnatic@post.sk', 'jaro.hnatic@post.sk'); ?></span>
                     <div style="clear:both;"></div>
                 </li>
+                <li>
+                    <span>E-mail 2:</span><span><?php echo safe_mailto('jaro.hnatic@gmail.com', 'jaro.hnatic@gmail.com'); ?></span>
+                    <div style="clear:both;"></div>
+                </li>                
                 <li>
                     <span>Web:</span><span><?php echo anchor('http://www.farmanaddubom.sk', 'http://www.farmanaddubom.sk'); ?></span>
                     <div style="clear:both;"></div>
@@ -58,7 +62,7 @@
 
         <div class="right">
         <!--<div id="map_section">-->
-            <?php echo img('assets/css/images/illustration_map.gif'); ?>
+            <?php echo img('assets/css/images/mapka.png'); ?>
         <!--</div>-->
             </div>
         <div style="clear: both;">

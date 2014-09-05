@@ -169,9 +169,9 @@
             <h1><span class="big">F</span><span class="small">arma Nad dubom</span></h1>
 
 
-            <div id="welcome_bacground_image">
-                <?php echo img('assets/css/images/welcome_background.jpg'); ?>
-            </div>
+<!--            <div id="welcome_bacground_image">
+                <?php //echo img('assets/css/images/welcome_background.jpg'); ?>
+            </div>-->
 
 
 

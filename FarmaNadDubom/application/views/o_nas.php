@@ -34,7 +34,7 @@
             ktoré sa stáva ozdobou krásnych slovenských podhorských lúk.             
         </p>
         <p>
-            Ing. Jaroslav Hnatič, majiteľs           
+            Ing. Jaroslav Hnatič, majiteľ          
         </p>        
     </div>
 </div>

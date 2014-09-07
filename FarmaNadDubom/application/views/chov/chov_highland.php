@@ -5,15 +5,15 @@
 
     <p>
         Highland, alebo škótsky náhorný dobytok, pochádza z oblastí severozápadnej škótskej vysočiny a centrálneho Škótska. 
-        Toto plemeno sa dnes môže tiež nazývať génovou rezervou, pretože nebolo vystavené žiadnym moderným selekčným postupom, 
-        ktoré boli uplatňované v chove dobytka od 19 storočia.
-        Tvrdé podmienky, skromná pastva a celoročný pohyb vo voľnej prírode priaznivo ovplyvnili konštitúciu a zdravie tohto dobytka, 
+        Toto&nbsp;plemeno sa dnes môže tiež nazývať génovou rezervou, pretože nebolo vystavené žiadnym moderným selekčným postupom, 
+        ktoré boli uplatňované v&nbsp;chove dobytka od 19 storočia.
+        Tvrdé podmienky, skromná pastva a celoročný pohyb vo&nbsp;voľnej prírode priaznivo ovplyvnili konštitúciu a zdravie tohto dobytka, 
         ktorý získal neobyčajnú odolnosť a otužilosť.
     </p>
     <p>
         Plemeno Highland má také vlastnosti, ktoré zodpovedajú dnešným požiadavkám na chov v súlade s prírodou, 
         na starostlivosť o krajinu, ochranu zvierat a predovšetkým na zdravé a chutné potraviny. 
-        Je to nesmierne tvrdé a odolné plemeno, ktorému sa darí i v horších klimatických podmienkach, 
+        Je to nesmierne tvrdé a odolné plemeno, ktorému sa&nbsp;darí i v horších klimatických podmienkach, 
         z čoho vyplýva, že chov by mal byť situovaný celoročne vonku a bez zvláštnych nárokov na ustajnenie, 
         čo platí i pre krížencov s týmto plemenom.
     </p>

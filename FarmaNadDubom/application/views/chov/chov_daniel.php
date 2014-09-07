@@ -20,8 +20,8 @@
         a to ako aj v rôznych ročných dobách, tak aj podľa staroby. 
         V lete je daniel zvrchu na stehnách a na konci chvosta hnedočervený, zospodu a na vnútornej strane nôh biely, 
         okolo papule a očí má čierne krúžky. 
-        Chrbtové chlpy má pri koreni do biela, uprostred červenohnedé a na konci čierne.
-        V zime je povrch hlavy, krku a uší hnedošedý, chrbát a boky do čierna, spodok tela popolavý, niekedy do červenkasta. 
+        Chrbtové chlpy má pri koreni do biela, uprostred červenohnedé a&nbsp;na&nbsp;konci čierne.
+        V zime je povrch hlavy, krku a uší hnedošedý, chrbát a boky do čierna, spodok tela popolavý, niekedy do&nbsp;červenkasta. 
         Často sa daniele vyskytujú úplne biele, ktoré nemenia farbu po celý rok a ktoré v zime mávajú len o niečo dlhšiu srsť. 
         Niektoré daniele bývajú v mladosti žltkasté; čierne sa vyskytujú zriedka.</p>
     <p>

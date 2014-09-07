@@ -1,19 +1,5 @@
 
-<meta charset="utf-8" name="viewport" content="initial-scale=1.0, user-scalable=no" />
-
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6YUMQDnS8B8ZiKItN_of5xOGUh97VdOo"></script>
-<script type="text/javascript">
-    function initialize() {
-        var mapOptions = {
-            center: new google.maps.LatLng(49.305303, 21.882968),
-            zoom: 15,
-            mapTypeId: google.maps.MapTypeId.SATELLITE
-        };
-        var map = new google.maps.Map(document.getElementById("map-canvas"),
-        mapOptions);
-    }
-    google.maps.event.addDomListener(window, 'load', initialize);
-</script>        
+<meta charset="utf-8" name="viewport" content="initial-scale=1.0, user-scalable=no" />       
 </head>
 
 <!-- content -->
@@ -40,11 +26,11 @@
                 <li>
                     <span>E-mail 2:</span><span><?php echo safe_mailto('jaro.hnatic@gmail.com', 'jaro.hnatic@gmail.com'); ?></span>
                     <div style="clear:both;"></div>
-                </li>                
+                </li>
                 <li>
                     <span>Web:</span><span><?php echo anchor('http://www.farmanaddubom.sk', 'http://www.farmanaddubom.sk'); ?></span>
                     <div style="clear:both;"></div>
-                </li>                
+                </li>
             </ul>
 
             <h2>Kde nás nájdete</h2>
@@ -68,7 +54,4 @@
         <div style="clear: both;">
         </div>
         </div>
-
-
-        <div id="map-canvas"></div>
     </div>

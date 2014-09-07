@@ -127,6 +127,11 @@ ul>li>ul>li>a {
     font-size: 1.8rem;
 }
 
+#welcome_title {
+    text-align: right;
+    margin-right: 1%;
+}
+
 /*  container */
 #container {
     position: relative;
@@ -349,6 +354,7 @@ div.errors p{
     font-family: 'Oswald', sans-serif;
     margin-bottom: 1%;
     font-size: 1.15em;
+    text-align: justify;
 }
 
 /*** MEDIA QUERIES ***/

@@ -2,10 +2,10 @@
 <html lang="en">
     <head>
         <title>Farma Nad dubom - vitajte!</title>
-        
+
         <!-- meta tags -->
         <meta charset="utf-8">
-        <?php echo meta('description','Uvitacia stranka farmy Nad dubom orientovanej na chov muflonov, danielov a highlandov'); ?>
+        <?php echo meta('description', 'Uvitacia stranka farmy Nad dubom orientovanej na chov muflonov, danielov a highlandov'); ?>
         <?php echo meta(array('name' => 'robots', 'content' => 'INDEX, FOLLOW')); ?>
 
         <link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -19,46 +19,46 @@
         <!-- javascript -->
         <script src="<?php echo base_url(); ?>assets/javascript/jquery-1.6.js" text='text/javascript'></script>
         <script>
-            $(document).ready(function(){
+            $(document).ready(function() {
                 $('html, body').css('overflow-y', 'hidden');
-                
-                $("#welcome_logo_section").click( function(){
-                    $( "#logo_top" ).animate({
+
+                $("#welcome_logo_section").click(function() {
+                    $("#logo_top").animate({
                         opacity: 0.1,
                         bottom: "+=500"
                     }, 1500);
 
-                    $( "#logo_bottom" ).animate({
+                    $("#logo_bottom").animate({
                         opacity: 0.1,
                         top: "+=500"
                     }, 1500);
-                    
-                    $( "#logo_tree_top" ).animate({
+
+                    $("#logo_tree_top").animate({
                         opacity: 0.1,
                         left: "+=500"
-                    }, 1500);                    
-                    
-                    $( "#logo_trunk" ).animate({
+                    }, 1500);
+
+                    $("#logo_trunk").animate({
                         opacity: 0.1,
                         right: "+=500"
-                    }, 1500);                     
-                    
+                    }, 1500);
+
                     setTimeout(function() {
-                        $("#welcome_logo_section").fadeOut('slow', function(){
+                        $("#welcome_logo_section").fadeOut('slow', function() {
                             $('html, body').css('overflow-y', 'auto');
                         });
                     }, 1000);
-                    
+
                 });
-                
-                $("a.roll_down").click( function(){
-                    $(this).siblings( "ul" ).slideToggle("slow");
+
+                $("a.roll_down").click(function() {
+                    $(this).siblings("ul").slideToggle("slow");
                 });
-                
+
                 $('#welcome_logo_section').show();
-                
-                $('#menu_id').click( function(){
-                    $(this).parent().siblings( "ul" ).slideToggle("slow");
+
+                $('#menu_id').click(function() {
+                    $(this).parent().siblings("ul").slideToggle("slow");
                 });
             });
         </script>
@@ -166,7 +166,7 @@
 
         <!-- content -->
         <!--<div id="container" style="border: 1px solid red;">-->
-            <h1 id="welcome_title"><span class="small">Farma Nad dubom</span></h1>
-<!--        </div>-->
+        <h1 id="welcome_title"><span class="small">Farma Nad dubom</span></h1>
+        <!--        </div>-->
     </body>
 </html>

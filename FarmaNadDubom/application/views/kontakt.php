@@ -47,11 +47,11 @@
         </div>
 
         <div class="right">
-        <!--<div id="map_section">-->
+            <!--<div id="map_section">-->
             <?php echo img('assets/css/images/mapka.png'); ?>
-        <!--</div>-->
-            </div>
+            <!--</div>-->
+        </div>
         <div style="clear: both;">
         </div>
-        </div>
     </div>
+</div>

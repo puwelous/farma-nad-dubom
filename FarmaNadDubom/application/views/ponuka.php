@@ -4,8 +4,14 @@
     <h1><span class="big">N</span><span class="small">aša ponuka</span></h1>
     <div class="title_line"></div>
     <p>
-        Momentálne nie je nič v ponuke na predaj.
+        Predáme býka - 100&percnt; highland, narodený 5/2013, cena dohodou
     </p>
+    
+    <div class="photogallery">
+    <a href="<?php echo base_url('assets/images/offer/offer_1.jpg'); ?>" data-lightbox="ponuka"><?php echo img('assets/images/offer/offer_1.jpg'); ?></a>
+    <a href="<?php echo base_url('assets/images/offer/offer_2.jpg'); ?>" data-lightbox="ponuka"><?php echo img('assets/images/offer/offer_2.jpg'); ?></a>
+    <a href="<?php echo base_url('assets/images/offer/offer_3.jpg'); ?>" data-lightbox="ponuka"><?php echo img('assets/images/offer/offer_3.jpg'); ?></a>
+    </div>
     <!-- Our offers - table -->
 <!--    <table>
         <thead>

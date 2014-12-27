@@ -121,6 +121,19 @@
             </ul>
         </div>
 
+        <!-- invisible logo as a whole unit just for purposes of sharing on FB -->
+        <div id="logo_invisible" style="display: none">
+                <?php
+                $image_properties_invisible = array(
+                    'id' => 'logo_invisible',
+                    'src' => 'assets/css/images/logo/logo.png',
+                    'alt' => 'Logo',
+                    'title' => 'Logo'
+                );
+                echo img($image_properties_invisible);
+                ?>
+        </div>
+        
         <!-- logo section on welcome page -->
         <div id="welcome_logo_section" style="display: none">
             <div id="logo_section_background">
